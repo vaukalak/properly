@@ -16,7 +16,7 @@ yarn add reprolog
 
 ## Setup
 
-```
+```js
 import React from 'react';
 import { LoggerProvider } from 'reprolog';
 import { newOldDiffLogger } from 'reprolog/loggers';
@@ -35,7 +35,7 @@ export default () => (
 
 ## Usage
 
-```
+```js
 // Root.js
 import React from 'react';
 import { withLogger } = 'reprolog';
@@ -59,7 +59,7 @@ To enable logs that you need to display, just modify `whiteList` param of config
 ## Runtime Configuration
 
 You can configure logger, for runtime updates from chrome console:
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
